@@ -1,0 +1,27 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  transition: transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: black;
+  transition: all 0.2s;
+  opacity: 80%;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  opacity: 100%;
+  color: black;
+  font-weight: 500;
+}
+
+.card-body {
+  background-color: white;
+}
+
+.major-badge {
+  font-size: 0.8rem;
+  font-weight: normal;
+}
